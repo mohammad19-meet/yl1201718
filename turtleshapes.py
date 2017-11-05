@@ -17,7 +17,7 @@ turtle.goto(25,-25)
 turtle.goto(0,0)"""
 turtle.register_shape("Marker", ((0,50),(50,50), (50,0),(25,-25), (0,0)))
 turtle.shape("Marker")
-turtle.addshape("Marker")
+"""turtle.addshape("Marker")
 turtle.getshape(turtle.goto(0,50))
-
+"""
 turtle.mainloop()
