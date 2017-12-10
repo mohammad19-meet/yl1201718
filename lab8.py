@@ -25,7 +25,25 @@ ball1_y = a.ycor()
 ball2_x = b.xcor()
 ball2_y = b.ycor()
 
-def collisions(ball1,ball2):
-	if (ball.shapesize()[0] + ball2.shapesize()[0]) > math.sqrt((math.pow))
+a_placex = random.randint(-200, 200)
+a_placey = random.randint(-200, 200)
 
-	ball1.color
+b_placex = random.randint(-200, 200)
+b_placey = random.randint(-200, 200)
+
+def Check_collisions(ball1,ball2):
+	if (ball1.shapesize()[0] + ball2.shapesize()[0]) >= math.sqrt(math.pow(ball1_x - ball2_x,2)+math.pow(ball1_y - ball2_y,2)):
+		ball1.color('green')
+		ball2.color('yellow')
+	if b.shapesize()[0] < a.shapesize()[0]:
+		b.pu()
+		b.goto(a_placex,a_placey)
+		a.pu()
+		a.goto(b_placex,b_placey)
+	else:
+		a.pu()
+		a.goto(placex,placey)
+
+
+Check_collisions(a,b)
+turtle.mainloop()
