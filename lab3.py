@@ -1,10 +1,10 @@
 import turtle
 
-"""turtle.register_shape("heart.gif")
-turtle.shape("heart.gif")"""
-turtle.tracer(1000)
+turtle.register_shape("heart.gif")
+#turtle.shape("heart.gif")
+turtle.tracer(100)
 b = 1
-a = 360
+a = 1
 for i in range(a):
 	turtle.forward(200)
 	turtle.right(45)
