@@ -49,3 +49,4 @@ class Ball(Turtle):
 
 		if bottom_side_ball <= -screen_height:
 			self.dy = -self.dy
+

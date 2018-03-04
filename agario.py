@@ -39,7 +39,7 @@ turtle.goto(-595,339)
 
 
 
-my_ball = Ball(0,0,0,0,25, "red")
+my_ball = Ball(0,0,0,0,50, "red")
 
 
 
